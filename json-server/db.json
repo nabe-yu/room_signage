@@ -1,0 +1,31 @@
+{
+  "schedules": [
+    {
+      "id": 1,
+      "title": "ランチミーティング",
+      "room_name": "88会議室",
+      "registered": "wasabi",
+      "start_time": "2021-11-03 12:00:00",
+      "end_time": "2021-11-03 13:00:00",
+      "in_use": false
+    },
+    {
+      "id": 2,
+      "title": "緊急ミーティング",
+      "room_name": "88会議室",
+      "registered": "wasabi",
+      "start_time": "2021-11-03 14:00:00",
+      "end_time": "2021-11-03 14:30:00",
+      "in_use": false
+    },
+    {
+      "id": 3,
+      "title": "定例会議",
+      "room_name": "88会議室",
+      "registered": "wasabi",
+      "start_time": "2021-11-03 15:00:00",
+      "end_time": "2021-11-03 16:00:00",
+      "in_use": false
+    }
+  ]
+}
