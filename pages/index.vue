@@ -1,8 +1,22 @@
 <template>
   <section>
-    <Clock />
-    <RoomState />
-    <Schedule />
+    <div class="columns">
+      <div class="column is-5 has-background-dark">
+        <RoomState />
+        <Schedule />
+      </div>
+      <div class="column is-7 has-background-white">
+        <Clock class="has-text-centered" />
+        <p class="title">
+          Next Meeting
+        </p>
+        <Schedule />
+        <Schedule />
+        <Schedule />
+        <Schedule />
+        <Schedule />
+      </div>
+    </div>
   </section>
 </template>
 

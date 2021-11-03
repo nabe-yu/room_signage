@@ -1,7 +1,9 @@
 <template>
   <section>
+    <p class="title">
+      {{ currentTime }}
+    </p>
     <p>{{ currentDate }}</p>
-    <p>{{ currentTime }}</p>
   </section>
 </template>
 
@@ -17,7 +19,7 @@ export default {
   methods: {
     updateTime() {
       this.currentDate = this.$dayjs().format('YYYY年MM月DD日（ddd）')
-      this.currentTime = this.$dayjs().format('HH:mm ss')
+      this.currentTime = this.$dayjs().format('HH:mm')
     }
   }
 }
